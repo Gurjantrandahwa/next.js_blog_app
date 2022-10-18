@@ -7,9 +7,7 @@ export default function Header() {
         <div className={"flex items-center space-x-5"}>
             <Link href={"/"}>
                 <p className={"text-2xl font-bold cursor-pointer"}>Blog app</p>
-                {/*<img*/}
-                {/*    className={"w-14 h-14 object-contain cursor-pointer"}*/}
-                {/*    src={"https://www.pngitem.com/pimgs/m/197-1971055_blogger-logo-icons-no-attribution-white-blog-icon.png"} alt={""}/>*/}
+
             </Link>
             <div className={"hidden md:inline-flex items-center space-x-5 "}>
                 <h3>About</h3>
